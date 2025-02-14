@@ -7,7 +7,7 @@ import java.security.SecureRandom;
 import java.util.Base64;
 
 @SpringBootApplication
-public class RestMicroserviceBaseApplication {
+public class MsAuthApplication {
 
     public static void main(String[] args) {
         byte[] key = new byte[32]; // 32 bytes = 256 bits
@@ -16,7 +16,7 @@ public class RestMicroserviceBaseApplication {
         System.out.println("Generated Secret Key: " + base64Key);
 
 
-        SpringApplication.run(RestMicroserviceBaseApplication.class, args);
+        SpringApplication.run(MsAuthApplication.class, args);
     }
 
 }

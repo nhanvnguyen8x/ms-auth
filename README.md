@@ -1,2 +1,2 @@
-# ms-base
-Java Microservice Project Structure for Rest API
+# Authentication Service
+Java Authentication Microservice 
