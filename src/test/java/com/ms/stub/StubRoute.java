@@ -13,7 +13,7 @@ public class StubRoute {
     private final Method method;
     private final HttpStatus httpStatus;
     private final MatchType matchType;
-    private final Integer deplayTime;
+    private final Integer delayTime;
 
     public enum Method {
         GET, POST, PUT, DELETE
